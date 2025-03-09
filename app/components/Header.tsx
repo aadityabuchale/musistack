@@ -8,8 +8,6 @@ function Header() {
 
   const session = useSession();
 
-  console.log(session.data?.user)
-
   return (
     <section className='bg-green-800 flex justify-between items-center py-2 px-5'>
       <h2>Musistack</h2>
